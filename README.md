@@ -104,3 +104,14 @@ data/processed/extension_coefficient_plot.png
 * Accounting for store-level heterogeneity does not change the core conclusion
 * Findings support the original conclusions of Card and Krueger (1994)
 ---
+minimum-wage-did-replication/
+├── README.md
+├── data/
+│   ├── raw/
+│   └── processed/
+│       ├── 
+│       └── extension_coefficient_plot.png
+└── notebooks/
+    ├── 01_Data_Cleaning.ipynb
+    ├── 02_Replication.ipynb
+    └── 03_Extension_and_Results.ipynb
