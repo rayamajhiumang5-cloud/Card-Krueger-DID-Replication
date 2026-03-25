@@ -7,11 +7,15 @@
 **Track:** Track A (Difference-in-Differences) 
 
 ---
+**Bottom Line Up Front (BLUF)**
+
+The minimum wage increase in New Jersey did not lead to a statistically significant decline in employment in the fast-food sector relative to Pennsylvania. Even when examining heterogeneous effects across store types and chains, we find no consistent evidence of negative employment impacts, reinforcing the robustness of the original findings.
+
+---
 **Project Overview**
 
 This project replicates and extends the analysis of David Card and Alan Krueger (1994), which investigates the impact of a minimum wage increase on employment in the fast-food industry. The original study compares fast-food restaurants in New Jersey (treatment group) and Pennsylvania (control group) before and after the 1992 policy change.
 
----
 **Research Question**
 
 Does the increase in minimum wage in New Jersey affect employment in fast-food restaurants, and does this effect vary when accounting for store-level characteristics (heterogeneous treatment effects)?
@@ -104,14 +108,18 @@ data/processed/extension_coefficient_plot.png
 * Accounting for store-level heterogeneity does not change the core conclusion
 * Findings support the original conclusions of Card and Krueger (1994)
 ---
-minimum-wage-did-replication/
-├── README.md
-├── data/
-│   ├── raw/
+**Repository Structure**
+```
+Card-Krueger-DID-Replication/
+├── DATA/
+│   ├── Raw/
 │   └── processed/
-│       ├── 
+│       ├── card_krueger_full_cleaned.csv
 │       └── extension_coefficient_plot.png
 └── notebooks/
     ├── 01_Data_Cleaning.ipynb
     ├── 02_Replication.ipynb
     └── 03_Extension_and_Results.ipynb
+└── README.md
+```
+---
