@@ -7,11 +7,33 @@
 **Track:** Track A (Difference-in-Differences) 
 
 ---
+# Executive Memo
+--- 
 **Bottom Line Up Front (BLUF)**
 
 The minimum wage increase in New Jersey did not lead to a statistically significant decline in employment in the fast-food sector relative to Pennsylvania. Even when examining heterogeneous effects across store types and chains, we find no consistent evidence of negative employment impacts, reinforcing the robustness of the original findings.
 
 ---
+**Graph**
+
+![Heterogeneous Effects Plot](DATA/processed/extension_coefficient_plot.png)
+---
+
+**Figure:** Heterogeneous Effects of Minimum Wage Policy on Employment  
+This figure shows estimated treatment effects across subgroups. All confidence intervals cross zero, indicating no statistically significant impact on employment.
+
+---
+**Business / Policy Implications**
+* **Policymakers**:
+The absence of negative employment effects—even across different firm types—suggests that moderate minimum wage increases can be implemented without harming jobs.
+* **Businesses**:
+Firms likely adjust through alternative margins such as:
+Slight price increases
+Productivity improvements
+Reduced employee turnover
+Labor Market Insight:
+Employment responses are more rigid than classical theory predicts, especially in low-wage labor markets.
+
 **Project Overview**
 
 This project replicates and extends the analysis of David Card and Alan Krueger (1994), which investigates the impact of a minimum wage increase on employment in the fast-food industry. The original study compares fast-food restaurants in New Jersey (treatment group) and Pennsylvania (control group) before and after the 1992 policy change.
@@ -122,4 +144,10 @@ Card-Krueger-DID-Replication/
     └── 03_Extension_and_Results.ipynb
 └── README.md
 ```
+---
+
+**Conclusion**
+
+This project replicates the core findings of Card and Krueger (1994) and extends the analysis by incorporating store-level controls. The results consistently show no evidence that the minimum wage increase reduced employment, supporting the original conclusion.
+
 ---
