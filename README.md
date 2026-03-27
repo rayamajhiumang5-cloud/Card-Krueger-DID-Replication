@@ -138,6 +138,8 @@ Card-Krueger-DID-Replication/
 │   └── processed/
 │       ├── card_krueger_full_cleaned.csv
 │       └── extension_coefficient_plot.png
+│
+└── Graph
 └── notebooks/
     ├── 01_Data_Cleaning.ipynb
     ├── 02_Replication.ipynb
